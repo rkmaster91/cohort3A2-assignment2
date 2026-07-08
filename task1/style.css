@@ -1,0 +1,148 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  
+   letter-spacing: -2px;
+  /* padding: 5px; */
+}
+nav {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  height: 7%;
+  width: 100%;
+  
+
+  justify-content: space-between;
+  align-items: center;
+}
+.ScaleX {
+  font-size: 50px;
+}
+.mid {
+  display: flex;
+  gap: 20px;
+  font-size: larger;
+  font-weight: 400;
+  
+}
+.section{
+  font-size: x-large;
+}
+.end-button {
+  padding: 5px;
+  height: 85%;
+  width: fit fit-content;
+  border: none;
+  font-size: x-large;
+  background-color: rgb(17, 17, 17);
+  border-radius: 15px;
+  color: #fff;
+  transition: background-color , ease-out , 1s;
+}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  line-height: -2;
+}
+.catroot {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.categories {
+  height: 5%;
+  width: 100%;
+
+  top: 50%;
+  left: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.cat {
+  background-color: rgb(19, 19, 19);
+  color: #fff;
+  height: 50px;
+  width: 75px;
+  padding: 10px;
+  border: none;
+  border-radius: 9999px;
+}
+.active {
+  padding: 20px;
+  background-color: #fe4b09;
+}
+.content {
+  height: 420px;
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.card {
+  width: 350px;
+  padding: 5px;
+  background-color: #111;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transition: all ease-in-out 1s;
+}
+.image {
+  height: 280px;
+  width: 100%;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.cardcontent {
+  padding: 24px;
+}
+.Concat {
+  background-color: #fe4b09;
+  color: #fff;
+  height: 50px;
+  width: 75px;
+
+  border: none;
+  border-radius: 9999px;
+}
+h2 {
+  line-height: 1.25;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.card:hover{
+  transform: scale(1.25) translate(-2%,-2%);
+}
+.end-button:hover{
+  background-color: #fe4b09;
+}

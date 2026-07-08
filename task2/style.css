@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgb(2, 2, 2);
+  
+}
+
+
+nav {
+  height: 10%;
+  width: 100%;
+
+  font-size: xxx-large;
+  text-align: center;
+}
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+span img {
+  height: 30px;
+  width: 30px;
+}
+.line {
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    #1f1206 0%,
+    #5b350d 25%,
+    #b9771f 50%,
+    #5b350d 75%,
+    #1f1206 100%
+  );
+}
+.juices {
+  display: flex;
+  width: 100%;
+  height: 70%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.juice {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #171412 0%,
+    #12100f 35%,
+    #0d0d0d 70%,
+    #090909 100%
+  );
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 10%;
+}
+.signature {
+  position: relative;
+  border: 2px solid transparent;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#171311, #171311) padding-box,
+    linear-gradient(
+        180deg,
+        #8d4b22 0%,
+        #d67b34 15%,
+        #ff9a42 50%,
+        #d67b34 85%,
+        #8d4b22 100%
+      )
+      border-box;
+}
+.sign {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  padding: 5px;
+  border: 1px solid transparent;
+  background:
+    linear-gradient(#181312, #181312) padding-box,
+    linear-gradient(
+        135deg,
+        #4a2a0f 0%,
+        #c8842e 35%,
+        #ffb04a 50%,
+        #c8842e 65%,
+        #4a2a0f 100%
+      )
+      border-box;
+  border-radius: 9999px;
+  color: #ffb04a;
+}
+.signature img {
+  height: 20px;
+  width: 20px;
+}
+.photo img {
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  top: 45px;
+  left: 20%;
+}
+.text {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  font-size: xxx-large;
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+h6 {
+  text-transform: capitalize;
+  position: absolute;
+  top: 81%;
+  left: 25%;
+  font-size: large;
+  font-weight: 200;
+  color: gray;
+}
+.line2 {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    #1f1206 0%,
+    #5b350d 25%,
+    #b9771f 50%,
+    #5b350d 75%,
+    #1f1206 100%
+  );
+}
+.price {
+  position: absolute;
+  top: 91%;
+  left: 37%;
+  color: orange;
+  font-size: xx-large;
+}
+.cuisine {
+  margin: 0 20px 0 20px;
+  height: 70%;
+  width: 100%;
+  background:
+    radial-gradient(
+      ellipse at top left,
+      rgba(255, 140, 50, 0.08),
+      transparent 45%
+    ),
+    linear-gradient(135deg, #1f1815 0%, #171311 25%, #121212 70%, #0d0d0d 100%);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  padding-top: 40px;
+}
+.yum {
+  position: absolute;
+}
+.write {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 30%;
+  gap: 20px;
+}
+.sign2 {
+  width: fit-content;
+
+  padding: 5px;
+  border: 1px solid transparent;
+  background:
+    linear-gradient(#181312, #181312) padding-box,
+    linear-gradient(
+        135deg,
+        #4a2a0f 0%,
+        #c8842e 35%,
+        #ffb04a 50%,
+        #c8842e 65%,
+        #4a2a0f 100%
+      )
+      border-box;
+  border-radius: 9999px;
+  color: #ffb04a;
+}
+footer {
+
+  height: 10%;
+  width: 100%;
+  border-top: 2px solid transparent;
+  margin-top: 20px;
+
+
+  background:
+  
+    linear-gradient(#0b0b0b, #0b0b0b) padding-box,
+    linear-gradient(90deg, #3a2414 0%, #c67834 50%, #3a2414 100%) border-box,
+   linear-gradient(180deg, #12100f 0%, #0c0c0c 100%);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+}
+.mid{
+  display: flex;
+  align-items: center;
+  gap: 10px
+  ;
+}
+.right{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;  
+
+}
+i{
+  display: inline;
+}
