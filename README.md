@@ -6,6 +6,10 @@ In this assignment, I recreated three different landing pages using only HTML an
 
 ## Projects
 
+### 0. Landing page
+
+The Html and CSS files in the root belong to the landing page , From where u can access all 3 projects
+
 ### 1. ScaleX
 
 A SaaS/blog landing page with:
